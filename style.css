@@ -1,0 +1,101 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: green;
+    color: white;
+    width: 340px;
+    border-radius: 1rem;
+}
+
+.main-content{
+    background-color: #121212;
+    color: white;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.music-player{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    border-radius: 1rem;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option{
+    opacity: 0.75;
+    background-color: #121212;
+    line-height: 2.5rem;
+    padding: 0.5rem 2.5rem;
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i{
+    background-color: #121212;
+    font-size: 1.25rem;
+}
+
+.nav-option a{
+    background-color: #121212;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+}
+
+.options{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 1rem;
+}
+
+.lib-option{
+    background-color: #121212;
+}
+
+.lib-option img{
+    background-color: #121212;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.lib-option a{
+    background-color: #121212;
+    margin-left: 1.25rem;
+}
