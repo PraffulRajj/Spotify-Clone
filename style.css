@@ -21,11 +21,11 @@
 }
 
 .main-content{
-    background-color: #121212;
     color: white;
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .music-player{
@@ -196,6 +196,31 @@ i.fa-regular.fa-user {
     width: fit-content;
 }
 
-.cards{
-    background-color: #121212;
+.cards-container{
+    display: flex;
+    margin-top: 30px;
+}
+
+.card{
+    padding: 1rem;
+    border-radius: 0.75rem;
+    width: 150px;
+    background-color: #232323
+}
+
+.card-img{
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.card-title{
+    padding-left: 10px;
+    font-weight: 600;
+    background-color: #232323
+}
+
+.class-info{
+    font-size: 0.85rem;
+    opacity: 0.5;
+    background-color: #232323
 }
