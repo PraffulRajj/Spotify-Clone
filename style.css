@@ -17,6 +17,7 @@
     color: white;
     width: 340px;
     border-radius: 1rem;
+    margin-right: 0.75rem;
 }
 
 .main-content{
@@ -162,4 +163,18 @@ p {
     margin-top: 0.5rem;
     height: 2rem;
     width: fit-content;
+}
+
+.main-content{
+    background-color: #232323;
+}
+
+.stick-navbar{
+    position: sticky;
+    top: 0;
+    background-color: #232323;
+}
+
+.stick-navbar img{
+    background-color: #232323;
 }
